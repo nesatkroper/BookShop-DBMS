@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookShop_DBMS_Project", "Library_DBMS\BookShop_DBMS_Project.csproj", "{F94F59C7-9AD5-4853-AE8F-68764D0FE716}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookShop_DBMS_Project", "BookShop_DBMS_Project\BookShop_DBMS_Project.csproj", "{F94F59C7-9AD5-4853-AE8F-68764D0FE716}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,52 @@
+C:\Users\Dev. Salty\Desktop\Wednesday\New folder\Library_DBMS\Library_DBMS\obj\Debug\BookShop_DBMS_Project.csproj.AssemblyReference.cache
+C:\Users\Dev. Salty\Desktop\Wednesday\New folder\Library_DBMS\Library_DBMS\obj\Debug\BookShop_DBMS_Project.csproj.GenerateResource.cache
+C:\Users\Dev. Salty\Desktop\Wednesday\New folder\Library_DBMS\Library_DBMS\obj\Debug\BookShop_DBMS_Project.csproj.CoreCompileInputs.cache
+C:\Users\Dev. Salty\Desktop\Wednesday\New folder\Library_DBMS\Library_DBMS\bin\Debug\BookShop_DBMS_Project.exe.config
+C:\Users\Dev. Salty\Desktop\Wednesday\New folder\Library_DBMS\Library_DBMS\bin\Debug\BookShop_DBMS_Project.exe
+C:\Users\Dev. Salty\Desktop\Wednesday\New folder\Library_DBMS\Library_DBMS\bin\Debug\BookShop_DBMS_Project.pdb
+C:\Users\Dev. Salty\Desktop\Wednesday\New folder\Library_DBMS\Library_DBMS\obj\Debug\BookShop_DBMS_Project.Adjustment.AdjustmentForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\New folder\Library_DBMS\Library_DBMS\obj\Debug\BookShop_DBMS_Project.Book.BookForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\New folder\Library_DBMS\Library_DBMS\obj\Debug\BookShop_DBMS_Project.Book.EditBookForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\New folder\Library_DBMS\Library_DBMS\obj\Debug\BookShop_DBMS_Project.Book.NewBookForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\New folder\Library_DBMS\Library_DBMS\obj\Debug\BookShop_DBMS_Project.Borrow.BorrowForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\New folder\Library_DBMS\Library_DBMS\obj\Debug\BookShop_DBMS_Project.Customer.CustomerForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\New folder\Library_DBMS\Library_DBMS\obj\Debug\BookShop_DBMS_Project.Customer.EditCustomerForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\New folder\Library_DBMS\Library_DBMS\obj\Debug\BookShop_DBMS_Project.Customer.NewCustomerForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\New folder\Library_DBMS\Library_DBMS\obj\Debug\BookShop_DBMS_Project.Dashboard.DashboardForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\New folder\Library_DBMS\Library_DBMS\obj\Debug\BookShop_DBMS_Project.Librarian.LibrarianForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\New folder\Library_DBMS\Library_DBMS\obj\Debug\BookShop_DBMS_Project.MainForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\New folder\Library_DBMS\Library_DBMS\obj\Debug\BookShop_DBMS_Project.POS.POSForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\New folder\Library_DBMS\Library_DBMS\obj\Debug\BookShop_DBMS_Project.Properties.Resources.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\New folder\Library_DBMS\Library_DBMS\obj\Debug\BookShop_DBMS_Project.Purchase.PurchaseForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\New folder\Library_DBMS\Library_DBMS\obj\Debug\BookShop_DBMS_Project.Return.ReturnForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\New folder\Library_DBMS\Library_DBMS\obj\Debug\BookShop_DBMS_Project.Vendor.VendorForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\New folder\Library_DBMS\Library_DBMS\obj\Debug\BookShop_DBMS_Project.exe
+C:\Users\Dev. Salty\Desktop\Wednesday\New folder\Library_DBMS\Library_DBMS\obj\Debug\BookShop_DBMS_Project.pdb
+C:\Users\Dev. Salty\Desktop\Wednesday\BookShop_DBMS_Project\BookShop_DBMS_Project\bin\Debug\BookShop_DBMS_Project.exe.config
+C:\Users\Dev. Salty\Desktop\Wednesday\BookShop_DBMS_Project\BookShop_DBMS_Project\bin\Debug\BookShop_DBMS_Project.exe
+C:\Users\Dev. Salty\Desktop\Wednesday\BookShop_DBMS_Project\BookShop_DBMS_Project\bin\Debug\BookShop_DBMS_Project.pdb
+C:\Users\Dev. Salty\Desktop\Wednesday\BookShop_DBMS_Project\BookShop_DBMS_Project\obj\Debug\BookShop_DBMS_Project.csproj.AssemblyReference.cache
+C:\Users\Dev. Salty\Desktop\Wednesday\BookShop_DBMS_Project\BookShop_DBMS_Project\obj\Debug\BookShop_DBMS_Project.Adjustment.AdjustmentForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\BookShop_DBMS_Project\BookShop_DBMS_Project\obj\Debug\BookShop_DBMS_Project.Borrow.BorrowForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\BookShop_DBMS_Project\BookShop_DBMS_Project\obj\Debug\BookShop_DBMS_Project.Customer.CustomerForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\BookShop_DBMS_Project\BookShop_DBMS_Project\obj\Debug\BookShop_DBMS_Project.Customer.EditCustomerForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\BookShop_DBMS_Project\BookShop_DBMS_Project\obj\Debug\BookShop_DBMS_Project.Customer.NewCustomerForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\BookShop_DBMS_Project\BookShop_DBMS_Project\obj\Debug\BookShop_DBMS_Project.Dashboard.DashboardForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\BookShop_DBMS_Project\BookShop_DBMS_Project\obj\Debug\BookShop_DBMS_Project.MainForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\BookShop_DBMS_Project\BookShop_DBMS_Project\obj\Debug\BookShop_DBMS_Project.POS.POSForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\BookShop_DBMS_Project\BookShop_DBMS_Project\obj\Debug\BookShop_DBMS_Project.Properties.Resources.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\BookShop_DBMS_Project\BookShop_DBMS_Project\obj\Debug\BookShop_DBMS_Project.Purchase.PurchaseForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\BookShop_DBMS_Project\BookShop_DBMS_Project\obj\Debug\BookShop_DBMS_Project.Return.ReturnForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\BookShop_DBMS_Project\BookShop_DBMS_Project\obj\Debug\BookShop_DBMS_Project.Vendor.VendorForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\BookShop_DBMS_Project\BookShop_DBMS_Project\obj\Debug\BookShop_DBMS_Project.csproj.GenerateResource.cache
+C:\Users\Dev. Salty\Desktop\Wednesday\BookShop_DBMS_Project\BookShop_DBMS_Project\obj\Debug\BookShop_DBMS_Project.csproj.CoreCompileInputs.cache
+C:\Users\Dev. Salty\Desktop\Wednesday\BookShop_DBMS_Project\BookShop_DBMS_Project\obj\Debug\BookShop_DBMS_Project.exe
+C:\Users\Dev. Salty\Desktop\Wednesday\BookShop_DBMS_Project\BookShop_DBMS_Project\obj\Debug\BookShop_DBMS_Project.pdb
+C:\Users\Dev. Salty\Desktop\Wednesday\BookShop_DBMS_Project\BookShop_DBMS_Project\obj\Debug\BookShop_DBMS_Project.POS.OrderList.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\BookShop_DBMS_Project\BookShop_DBMS_Project\obj\Debug\BookShop_DBMS_Project.POS.InvoiceForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\BookShop_DBMS_Project\BookShop_DBMS_Project\obj\Debug\BookShop_DBMS_Project.Book.ItemForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\BookShop_DBMS_Project\BookShop_DBMS_Project\obj\Debug\BookShop_DBMS_Project.Book.EditItemForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\BookShop_DBMS_Project\BookShop_DBMS_Project\obj\Debug\BookShop_DBMS_Project.Book.NewItemForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\BookShop_DBMS_Project\BookShop_DBMS_Project\obj\Debug\BookShop_DBMS_Project.Logform.MainLog.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\BookShop_DBMS_Project\BookShop_DBMS_Project\obj\Debug\BookShop_DBMS_Project.Librarian.EmployeeForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\BookShop_DBMS_Project\BookShop_DBMS_Project\obj\Debug\BookShop_DBMS_Project.AboutUs.resources
