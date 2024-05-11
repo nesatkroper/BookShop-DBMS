@@ -32,7 +32,8 @@ namespace BookShop_DBMS_Project.Book
         public string curentImagePath = null;
         public string curentImageUrl = null;
         bool isTrue = false;
-        string[] cateItem = new string[] { "Book", "Note Book", "Pen", "Marker", "Ruler", "Pencil", "", "" };
+
+        string[] cateItem = new string[] { "Book", "Note Book", "Pen", "Marker", "Ruler", "Pencil" };
 
         void CategoryAddItem_()
         {
@@ -70,9 +71,7 @@ namespace BookShop_DBMS_Project.Book
                     txtSalePrice.Text = dr[6].ToString();
                     pcItem.ImageLocation = dr[7].ToString();
                     curentImageUrl = dr[7].ToString();
-                    isTrue = true;
                 }
-                else return;
                 dr.Close();
                 conn.Close();
             }
@@ -82,7 +81,6 @@ namespace BookShop_DBMS_Project.Book
                 MessageBox.Show(ex.Message);
             }
         }
-
 
         void BrowseImage_()
         {
@@ -98,7 +96,7 @@ namespace BookShop_DBMS_Project.Book
                     imgLocation = dailog.FileName.ToString();
                     pcItem.ImageLocation = imgLocation;
                     curentImageName = Path.GetFileName(imgLocation);
-                    isTrue = false;
+                    isTrue = true;
                 }
                 else return;
             }
@@ -110,20 +108,16 @@ namespace BookShop_DBMS_Project.Book
 
         void CopyImage_()
         {
-            if (!string.IsNullOrEmpty(curentImageName))
+            string imgDesPath = Path.Combine(Application.StartupPath, "Item-img", curentImageName);
+            try
             {
-                string imgDesPath = Path.Combine(Application.StartupPath, "Item-img", curentImageName);
-                try
-                {
-                    File.Copy(imgLocation, imgDesPath);
-                    curentImagePath = imgDesPath;
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message);
-                }
+                File.Copy(imgLocation, imgDesPath);
+                curentImagePath = imgDesPath;
             }
-            else return;
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         void UpdateDatabase_()
@@ -132,8 +126,8 @@ namespace BookShop_DBMS_Project.Book
             try
             {
                 conn.Open();
-                bool isTrue = false;
                 string query_ = "UPDATE Item_TB SET ite_name = @name, ite_description = @des, ite_quantity = @qty, ite_category = @cat, ite_price =  @price, ite_salePrice = @sprice, ite_pic = @pic WHERE ite_id = @id;";
+                string query_1 = "UPDATE Item_TB SET ite_name = @name, ite_description = @des, ite_quantity = @qty, ite_category = @cat, ite_price =  @price, ite_salePrice = @sprice WHERE ite_id = @id;";
                 SqlCommand cmd = new SqlCommand(query_, conn);
                 cmd.Parameters.AddWithValue("@name", txtName.Text);
                 cmd.Parameters.AddWithValue("@des", txtDes.Text);
@@ -141,18 +135,19 @@ namespace BookShop_DBMS_Project.Book
                 cmd.Parameters.AddWithValue("@cat", cbCate.Text);
                 cmd.Parameters.AddWithValue("@price", txtPrice.Text);
                 cmd.Parameters.AddWithValue("@sprice", txtSalePrice.Text);
-
+                cmd.Parameters.AddWithValue("@id", id_);
                 //THIS IS USE FOR UPDATE AND DELETE OLD PIC
                 if (isTrue)
                 {
-                    cmd.Parameters.AddWithValue("@pic", curentImageUrl);
+                    cmd.Parameters.AddWithValue("@pic", curentImagePath);
+                    File.Delete(curentImageUrl);
+                    isTrue = false;
+                    cmd.CommandText = query_;
                 }
                 else
                 {
-                    cmd.Parameters.AddWithValue("@pic", curentImagePath);
-                    File.Delete(curentImageUrl);
+                    cmd.CommandText = query_1;
                 }
-                cmd.Parameters.AddWithValue("@id", id_);
                 cmd.ExecuteNonQuery();
                 conn.Close();
             }

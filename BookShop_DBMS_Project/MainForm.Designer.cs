@@ -39,8 +39,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pnNavbar = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.lbStaffID = new System.Windows.Forms.Label();
-            this.lbStaffName = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnPurchase = new System.Windows.Forms.Button();
@@ -53,6 +51,11 @@
             this.btnItem = new System.Windows.Forms.Button();
             this.btnDashboard = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.pcbProfile = new System.Windows.Forms.PictureBox();
+            this.lbStaffID = new System.Windows.Forms.Label();
+            this.lbStaffName = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.btnPOS = new System.Windows.Forms.Button();
             this.pnData = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -65,6 +68,8 @@
             this.pnNavbar.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbProfile)).BeginInit();
             this.pnFooter.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -125,7 +130,7 @@
             this.lbDate.AutoSize = true;
             this.lbDate.Font = new System.Drawing.Font("Kode Mono", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbDate.ForeColor = System.Drawing.Color.White;
-            this.lbDate.Location = new System.Drawing.Point(1659, -2);
+            this.lbDate.Location = new System.Drawing.Point(1631, -2);
             this.lbDate.Name = "lbDate";
             this.lbDate.Size = new System.Drawing.Size(24, 29);
             this.lbDate.TabIndex = 666;
@@ -136,7 +141,7 @@
             this.lbTime.AutoSize = true;
             this.lbTime.Font = new System.Drawing.Font("Kode Mono", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbTime.ForeColor = System.Drawing.Color.White;
-            this.lbTime.Location = new System.Drawing.Point(1734, 24);
+            this.lbTime.Location = new System.Drawing.Point(1721, 24);
             this.lbTime.Name = "lbTime";
             this.lbTime.Size = new System.Drawing.Size(24, 29);
             this.lbTime.TabIndex = 666;
@@ -160,14 +165,12 @@
             this.pnNavbar.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnNavbar.Location = new System.Drawing.Point(10, 60);
             this.pnNavbar.Name = "pnNavbar";
-            this.pnNavbar.Size = new System.Drawing.Size(200, 1010);
+            this.pnNavbar.Size = new System.Drawing.Size(187, 1010);
             this.pnNavbar.TabIndex = 1;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.panel2.Controls.Add(this.lbStaffID);
-            this.panel2.Controls.Add(this.lbStaffName);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.btnPurchase);
@@ -179,33 +182,11 @@
             this.panel2.Controls.Add(this.btnLibrarian);
             this.panel2.Controls.Add(this.btnItem);
             this.panel2.Controls.Add(this.btnDashboard);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 100);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel2.Location = new System.Drawing.Point(0, 242);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 910);
+            this.panel2.Size = new System.Drawing.Size(176, 768);
             this.panel2.TabIndex = 2;
-            // 
-            // lbStaffID
-            // 
-            this.lbStaffID.AutoSize = true;
-            this.lbStaffID.Font = new System.Drawing.Font("Kode Mono", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbStaffID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(176)))), ((int)(((byte)(170)))));
-            this.lbStaffID.Location = new System.Drawing.Point(3, 867);
-            this.lbStaffID.Name = "lbStaffID";
-            this.lbStaffID.Size = new System.Drawing.Size(24, 29);
-            this.lbStaffID.TabIndex = 667;
-            this.lbStaffID.Text = "?";
-            // 
-            // lbStaffName
-            // 
-            this.lbStaffName.AutoSize = true;
-            this.lbStaffName.Font = new System.Drawing.Font("Kode Mono", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbStaffName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(176)))), ((int)(((byte)(170)))));
-            this.lbStaffName.Location = new System.Drawing.Point(3, 796);
-            this.lbStaffName.Name = "lbStaffName";
-            this.lbStaffName.Size = new System.Drawing.Size(24, 29);
-            this.lbStaffName.TabIndex = 667;
-            this.lbStaffName.Text = "?";
             // 
             // label4
             // 
@@ -234,11 +215,11 @@
             this.btnPurchase.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnPurchase.FlatAppearance.BorderSize = 0;
             this.btnPurchase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPurchase.Font = new System.Drawing.Font("Kode Mono", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPurchase.Font = new System.Drawing.Font("Kode Mono", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPurchase.ForeColor = System.Drawing.Color.Black;
             this.btnPurchase.Location = new System.Drawing.Point(0, 456);
             this.btnPurchase.Name = "btnPurchase";
-            this.btnPurchase.Size = new System.Drawing.Size(200, 57);
+            this.btnPurchase.Size = new System.Drawing.Size(176, 57);
             this.btnPurchase.TabIndex = 8;
             this.btnPurchase.Text = "PURCHASE";
             this.btnPurchase.UseVisualStyleBackColor = true;
@@ -249,11 +230,11 @@
             this.btnAdjustment.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnAdjustment.FlatAppearance.BorderSize = 0;
             this.btnAdjustment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAdjustment.Font = new System.Drawing.Font("Kode Mono", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdjustment.Font = new System.Drawing.Font("Kode Mono", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdjustment.ForeColor = System.Drawing.Color.Black;
             this.btnAdjustment.Location = new System.Drawing.Point(0, 399);
             this.btnAdjustment.Name = "btnAdjustment";
-            this.btnAdjustment.Size = new System.Drawing.Size(200, 57);
+            this.btnAdjustment.Size = new System.Drawing.Size(176, 57);
             this.btnAdjustment.TabIndex = 7;
             this.btnAdjustment.Text = "ADJUSTMENT";
             this.btnAdjustment.UseVisualStyleBackColor = true;
@@ -264,11 +245,11 @@
             this.btnReturn.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnReturn.FlatAppearance.BorderSize = 0;
             this.btnReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReturn.Font = new System.Drawing.Font("Kode Mono", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReturn.Font = new System.Drawing.Font("Kode Mono", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReturn.ForeColor = System.Drawing.Color.Black;
             this.btnReturn.Location = new System.Drawing.Point(0, 342);
             this.btnReturn.Name = "btnReturn";
-            this.btnReturn.Size = new System.Drawing.Size(200, 57);
+            this.btnReturn.Size = new System.Drawing.Size(176, 57);
             this.btnReturn.TabIndex = 6;
             this.btnReturn.Text = "RETURN";
             this.btnReturn.UseVisualStyleBackColor = true;
@@ -279,11 +260,11 @@
             this.btnBorrow.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnBorrow.FlatAppearance.BorderSize = 0;
             this.btnBorrow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBorrow.Font = new System.Drawing.Font("Kode Mono", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBorrow.Font = new System.Drawing.Font("Kode Mono", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBorrow.ForeColor = System.Drawing.Color.Black;
             this.btnBorrow.Location = new System.Drawing.Point(0, 285);
             this.btnBorrow.Name = "btnBorrow";
-            this.btnBorrow.Size = new System.Drawing.Size(200, 57);
+            this.btnBorrow.Size = new System.Drawing.Size(176, 57);
             this.btnBorrow.TabIndex = 5;
             this.btnBorrow.Text = "BORROW";
             this.btnBorrow.UseVisualStyleBackColor = true;
@@ -294,11 +275,11 @@
             this.btnCustomer.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnCustomer.FlatAppearance.BorderSize = 0;
             this.btnCustomer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCustomer.Font = new System.Drawing.Font("Kode Mono", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCustomer.Font = new System.Drawing.Font("Kode Mono", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCustomer.ForeColor = System.Drawing.Color.Black;
             this.btnCustomer.Location = new System.Drawing.Point(0, 228);
             this.btnCustomer.Name = "btnCustomer";
-            this.btnCustomer.Size = new System.Drawing.Size(200, 57);
+            this.btnCustomer.Size = new System.Drawing.Size(176, 57);
             this.btnCustomer.TabIndex = 4;
             this.btnCustomer.Text = "CUSTOMER";
             this.btnCustomer.UseVisualStyleBackColor = true;
@@ -309,11 +290,11 @@
             this.btnVendor.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnVendor.FlatAppearance.BorderSize = 0;
             this.btnVendor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVendor.Font = new System.Drawing.Font("Kode Mono", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVendor.Font = new System.Drawing.Font("Kode Mono", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVendor.ForeColor = System.Drawing.Color.Black;
             this.btnVendor.Location = new System.Drawing.Point(0, 171);
             this.btnVendor.Name = "btnVendor";
-            this.btnVendor.Size = new System.Drawing.Size(200, 57);
+            this.btnVendor.Size = new System.Drawing.Size(176, 57);
             this.btnVendor.TabIndex = 3;
             this.btnVendor.Text = "VENDOR";
             this.btnVendor.UseVisualStyleBackColor = true;
@@ -324,11 +305,11 @@
             this.btnLibrarian.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnLibrarian.FlatAppearance.BorderSize = 0;
             this.btnLibrarian.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLibrarian.Font = new System.Drawing.Font("Kode Mono", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLibrarian.Font = new System.Drawing.Font("Kode Mono", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLibrarian.ForeColor = System.Drawing.Color.Black;
             this.btnLibrarian.Location = new System.Drawing.Point(0, 114);
             this.btnLibrarian.Name = "btnLibrarian";
-            this.btnLibrarian.Size = new System.Drawing.Size(200, 57);
+            this.btnLibrarian.Size = new System.Drawing.Size(176, 57);
             this.btnLibrarian.TabIndex = 2;
             this.btnLibrarian.Text = "EMPLOYEE";
             this.btnLibrarian.UseVisualStyleBackColor = true;
@@ -339,11 +320,11 @@
             this.btnItem.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnItem.FlatAppearance.BorderSize = 0;
             this.btnItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnItem.Font = new System.Drawing.Font("Kode Mono", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnItem.Font = new System.Drawing.Font("Kode Mono", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnItem.ForeColor = System.Drawing.Color.Black;
             this.btnItem.Location = new System.Drawing.Point(0, 57);
             this.btnItem.Name = "btnItem";
-            this.btnItem.Size = new System.Drawing.Size(200, 57);
+            this.btnItem.Size = new System.Drawing.Size(176, 57);
             this.btnItem.TabIndex = 1;
             this.btnItem.Text = "ITEM";
             this.btnItem.UseVisualStyleBackColor = true;
@@ -354,11 +335,11 @@
             this.btnDashboard.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnDashboard.FlatAppearance.BorderSize = 0;
             this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDashboard.Font = new System.Drawing.Font("Kode Mono", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDashboard.Font = new System.Drawing.Font("Kode Mono", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDashboard.ForeColor = System.Drawing.Color.Black;
             this.btnDashboard.Location = new System.Drawing.Point(0, 0);
             this.btnDashboard.Name = "btnDashboard";
-            this.btnDashboard.Size = new System.Drawing.Size(200, 57);
+            this.btnDashboard.Size = new System.Drawing.Size(176, 57);
             this.btnDashboard.TabIndex = 0;
             this.btnDashboard.Text = "DASHBOARD";
             this.btnDashboard.UseVisualStyleBackColor = true;
@@ -366,12 +347,64 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.panel7);
+            this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.btnPOS);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 100);
+            this.panel1.Size = new System.Drawing.Size(187, 242);
             this.panel1.TabIndex = 2;
+            // 
+            // panel7
+            // 
+            this.panel7.Controls.Add(this.pcbProfile);
+            this.panel7.Controls.Add(this.lbStaffID);
+            this.panel7.Controls.Add(this.lbStaffName);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel7.Location = new System.Drawing.Point(0, 10);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(187, 169);
+            this.panel7.TabIndex = 2;
+            // 
+            // pcbProfile
+            // 
+            this.pcbProfile.Location = new System.Drawing.Point(33, 6);
+            this.pcbProfile.Name = "pcbProfile";
+            this.pcbProfile.Size = new System.Drawing.Size(121, 97);
+            this.pcbProfile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pcbProfile.TabIndex = 668;
+            this.pcbProfile.TabStop = false;
+            // 
+            // lbStaffID
+            // 
+            this.lbStaffID.AutoSize = true;
+            this.lbStaffID.Font = new System.Drawing.Font("Kode Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbStaffID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(176)))), ((int)(((byte)(170)))));
+            this.lbStaffID.Location = new System.Drawing.Point(28, 138);
+            this.lbStaffID.Name = "lbStaffID";
+            this.lbStaffID.Size = new System.Drawing.Size(22, 25);
+            this.lbStaffID.TabIndex = 667;
+            this.lbStaffID.Text = "?";
+            // 
+            // lbStaffName
+            // 
+            this.lbStaffName.AutoSize = true;
+            this.lbStaffName.Font = new System.Drawing.Font("Kode Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbStaffName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(176)))), ((int)(((byte)(170)))));
+            this.lbStaffName.Location = new System.Drawing.Point(28, 109);
+            this.lbStaffName.Name = "lbStaffName";
+            this.lbStaffName.Size = new System.Drawing.Size(22, 25);
+            this.lbStaffName.TabIndex = 667;
+            this.lbStaffName.Text = "?";
+            // 
+            // panel3
+            // 
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(187, 10);
+            this.panel3.TabIndex = 1;
             // 
             // btnPOS
             // 
@@ -380,9 +413,9 @@
             this.btnPOS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPOS.Font = new System.Drawing.Font("Kode Mono", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnPOS.ForeColor = System.Drawing.Color.Black;
-            this.btnPOS.Location = new System.Drawing.Point(0, 43);
+            this.btnPOS.Location = new System.Drawing.Point(0, 185);
             this.btnPOS.Name = "btnPOS";
-            this.btnPOS.Size = new System.Drawing.Size(200, 57);
+            this.btnPOS.Size = new System.Drawing.Size(187, 57);
             this.btnPOS.TabIndex = 0;
             this.btnPOS.Text = "POS";
             this.btnPOS.UseVisualStyleBackColor = true;
@@ -392,17 +425,17 @@
             // 
             this.pnData.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.pnData.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnData.Location = new System.Drawing.Point(220, 70);
+            this.pnData.Location = new System.Drawing.Point(207, 70);
             this.pnData.Margin = new System.Windows.Forms.Padding(0);
             this.pnData.Name = "pnData";
-            this.pnData.Size = new System.Drawing.Size(1690, 960);
+            this.pnData.Size = new System.Drawing.Size(1703, 960);
             this.pnData.TabIndex = 2;
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel4.Location = new System.Drawing.Point(210, 60);
+            this.panel4.Location = new System.Drawing.Point(197, 60);
             this.panel4.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(10, 1010);
@@ -412,10 +445,10 @@
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(220, 60);
+            this.panel5.Location = new System.Drawing.Point(207, 60);
             this.panel5.Margin = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1690, 10);
+            this.panel5.Size = new System.Drawing.Size(1703, 10);
             this.panel5.TabIndex = 2;
             // 
             // tmr
@@ -429,9 +462,9 @@
             this.pnFooter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(176)))), ((int)(((byte)(170)))));
             this.pnFooter.Controls.Add(this.label3);
             this.pnFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnFooter.Location = new System.Drawing.Point(220, 1030);
+            this.pnFooter.Location = new System.Drawing.Point(207, 1030);
             this.pnFooter.Name = "pnFooter";
-            this.pnFooter.Size = new System.Drawing.Size(1690, 40);
+            this.pnFooter.Size = new System.Drawing.Size(1703, 40);
             this.pnFooter.TabIndex = 435;
             this.pnFooter.Click += new System.EventHandler(this.pnFooter_Click);
             // 
@@ -450,9 +483,9 @@
             // panel6
             // 
             this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel6.Location = new System.Drawing.Point(220, 1020);
+            this.panel6.Location = new System.Drawing.Point(207, 1020);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1690, 10);
+            this.panel6.Size = new System.Drawing.Size(1703, 10);
             this.panel6.TabIndex = 436;
             // 
             // MainForm
@@ -480,6 +513,9 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbProfile)).EndInit();
             this.pnFooter.ResumeLayout(false);
             this.pnFooter.PerformLayout();
             this.ResumeLayout(false);
@@ -519,5 +555,8 @@
         private System.Windows.Forms.Panel pnFooter;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.PictureBox pcbProfile;
     }
 }

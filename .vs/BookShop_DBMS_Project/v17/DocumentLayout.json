@@ -3,40 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\BookShop_DBMS_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F94F59C7-9AD5-4853-AE8F-68764D0FE716}|BookShop_DBMS_Project\\BookShop_DBMS_Project.csproj|c:\\users\\dev. salty\\desktop\\wednesday\\bookshop_dbms_project\\bookshop_dbms_project\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F94F59C7-9AD5-4853-AE8F-68764D0FE716}|BookShop_DBMS_Project\\BookShop_DBMS_Project.csproj|solutionrelative:bookshop_dbms_project\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F94F59C7-9AD5-4853-AE8F-68764D0FE716}|BookShop_DBMS_Project\\BookShop_DBMS_Project.csproj|c:\\users\\dev. salty\\desktop\\wednesday\\bookshop_dbms_project\\bookshop_dbms_project\\employee\\employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F94F59C7-9AD5-4853-AE8F-68764D0FE716}|BookShop_DBMS_Project\\BookShop_DBMS_Project.csproj|solutionrelative:bookshop_dbms_project\\employee\\employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F94F59C7-9AD5-4853-AE8F-68764D0FE716}|BookShop_DBMS_Project\\BookShop_DBMS_Project.csproj|c:\\users\\dev. salty\\desktop\\wednesday\\bookshop_dbms_project\\bookshop_dbms_project\\item\\itemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F94F59C7-9AD5-4853-AE8F-68764D0FE716}|BookShop_DBMS_Project\\BookShop_DBMS_Project.csproj|solutionrelative:bookshop_dbms_project\\item\\itemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F94F59C7-9AD5-4853-AE8F-68764D0FE716}|BookShop_DBMS_Project\\BookShop_DBMS_Project.csproj|c:\\users\\dev. salty\\desktop\\wednesday\\bookshop_dbms_project\\bookshop_dbms_project\\item\\itemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F94F59C7-9AD5-4853-AE8F-68764D0FE716}|BookShop_DBMS_Project\\BookShop_DBMS_Project.csproj|solutionrelative:bookshop_dbms_project\\item\\itemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F94F59C7-9AD5-4853-AE8F-68764D0FE716}|BookShop_DBMS_Project\\BookShop_DBMS_Project.csproj|c:\\users\\dev. salty\\desktop\\wednesday\\bookshop_dbms_project\\bookshop_dbms_project\\employee\\employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F94F59C7-9AD5-4853-AE8F-68764D0FE716}|BookShop_DBMS_Project\\BookShop_DBMS_Project.csproj|solutionrelative:bookshop_dbms_project\\employee\\employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F94F59C7-9AD5-4853-AE8F-68764D0FE716}|BookShop_DBMS_Project\\BookShop_DBMS_Project.csproj|c:\\users\\dev. salty\\desktop\\wednesday\\bookshop_dbms_project\\bookshop_dbms_project\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F94F59C7-9AD5-4853-AE8F-68764D0FE716}|BookShop_DBMS_Project\\BookShop_DBMS_Project.csproj|solutionrelative:bookshop_dbms_project\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F94F59C7-9AD5-4853-AE8F-68764D0FE716}|BookShop_DBMS_Project\\BookShop_DBMS_Project.csproj|c:\\users\\dev. salty\\desktop\\wednesday\\bookshop_dbms_project\\bookshop_dbms_project\\aboutus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F94F59C7-9AD5-4853-AE8F-68764D0FE716}|BookShop_DBMS_Project\\BookShop_DBMS_Project.csproj|solutionrelative:bookshop_dbms_project\\aboutus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F94F59C7-9AD5-4853-AE8F-68764D0FE716}|BookShop_DBMS_Project\\BookShop_DBMS_Project.csproj|c:\\users\\dev. salty\\desktop\\wednesday\\bookshop_dbms_project\\bookshop_dbms_project\\aboutus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F94F59C7-9AD5-4853-AE8F-68764D0FE716}|BookShop_DBMS_Project\\BookShop_DBMS_Project.csproj|solutionrelative:bookshop_dbms_project\\aboutus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F94F59C7-9AD5-4853-AE8F-68764D0FE716}|BookShop_DBMS_Project\\BookShop_DBMS_Project.csproj|c:\\users\\dev. salty\\desktop\\wednesday\\bookshop_dbms_project\\bookshop_dbms_project\\item\\edititemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F94F59C7-9AD5-4853-AE8F-68764D0FE716}|BookShop_DBMS_Project\\BookShop_DBMS_Project.csproj|solutionrelative:bookshop_dbms_project\\item\\edititemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F94F59C7-9AD5-4853-AE8F-68764D0FE716}|BookShop_DBMS_Project\\BookShop_DBMS_Project.csproj|c:\\users\\dev. salty\\desktop\\wednesday\\bookshop_dbms_project\\bookshop_dbms_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F94F59C7-9AD5-4853-AE8F-68764D0FE716}|BookShop_DBMS_Project\\BookShop_DBMS_Project.csproj|solutionrelative:bookshop_dbms_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F94F59C7-9AD5-4853-AE8F-68764D0FE716}|BookShop_DBMS_Project\\BookShop_DBMS_Project.csproj|c:\\users\\dev. salty\\desktop\\wednesday\\bookshop_dbms_project\\bookshop_dbms_project\\pos\\posform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F94F59C7-9AD5-4853-AE8F-68764D0FE716}|BookShop_DBMS_Project\\BookShop_DBMS_Project.csproj|solutionrelative:bookshop_dbms_project\\pos\\posform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F94F59C7-9AD5-4853-AE8F-68764D0FE716}|BookShop_DBMS_Project\\BookShop_DBMS_Project.csproj|c:\\users\\dev. salty\\desktop\\wednesday\\bookshop_dbms_project\\bookshop_dbms_project\\pos\\posform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F94F59C7-9AD5-4853-AE8F-68764D0FE716}|BookShop_DBMS_Project\\BookShop_DBMS_Project.csproj|solutionrelative:bookshop_dbms_project\\pos\\posform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,86 +34,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EmployeeForm.cs",
-              "DocumentMoniker": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\BookShop_DBMS_Project\\BookShop_DBMS_Project\\Employee\\EmployeeForm.cs",
-              "RelativeDocumentMoniker": "BookShop_DBMS_Project\\Employee\\EmployeeForm.cs",
-              "ToolTip": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\BookShop_DBMS_Project\\BookShop_DBMS_Project\\Employee\\EmployeeForm.cs",
-              "RelativeToolTip": "BookShop_DBMS_Project\\Employee\\EmployeeForm.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAewCUAAABRAAAA",
+              "Title": "ItemForm.cs",
+              "DocumentMoniker": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\BookShop_DBMS_Project\\BookShop_DBMS_Project\\Item\\ItemForm.cs",
+              "RelativeDocumentMoniker": "BookShop_DBMS_Project\\Item\\ItemForm.cs",
+              "ToolTip": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\BookShop_DBMS_Project\\BookShop_DBMS_Project\\Item\\ItemForm.cs",
+              "RelativeToolTip": "BookShop_DBMS_Project\\Item\\ItemForm.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAEwFkAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T15:06:42.466Z",
+              "WhenOpened": "2024-05-10T15:32:26.423Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EmployeeForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\BookShop_DBMS_Project\\BookShop_DBMS_Project\\Employee\\EmployeeForm.cs",
-              "RelativeDocumentMoniker": "BookShop_DBMS_Project\\Employee\\EmployeeForm.cs",
-              "ToolTip": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\BookShop_DBMS_Project\\BookShop_DBMS_Project\\Employee\\EmployeeForm.cs [Design]",
-              "RelativeToolTip": "BookShop_DBMS_Project\\Employee\\EmployeeForm.cs [Design]",
+              "Title": "ItemForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\BookShop_DBMS_Project\\BookShop_DBMS_Project\\Item\\ItemForm.cs",
+              "RelativeDocumentMoniker": "BookShop_DBMS_Project\\Item\\ItemForm.cs",
+              "ToolTip": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\BookShop_DBMS_Project\\BookShop_DBMS_Project\\Item\\ItemForm.cs [Design]",
+              "RelativeToolTip": "BookShop_DBMS_Project\\Item\\ItemForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T15:06:39.818Z",
+              "WhenOpened": "2024-05-10T15:32:24.253Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\BookShop_DBMS_Project\\BookShop_DBMS_Project\\MainForm.cs",
-              "RelativeDocumentMoniker": "BookShop_DBMS_Project\\MainForm.cs",
-              "ToolTip": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\BookShop_DBMS_Project\\BookShop_DBMS_Project\\MainForm.cs",
-              "RelativeToolTip": "BookShop_DBMS_Project\\MainForm.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAiwCEAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T15:00:28.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\BookShop_DBMS_Project\\BookShop_DBMS_Project\\MainForm.cs",
-              "RelativeDocumentMoniker": "BookShop_DBMS_Project\\MainForm.cs",
-              "ToolTip": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\BookShop_DBMS_Project\\BookShop_DBMS_Project\\MainForm.cs [Design]",
-              "RelativeToolTip": "BookShop_DBMS_Project\\MainForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T15:00:07.839Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AboutUs.cs",
-              "DocumentMoniker": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\BookShop_DBMS_Project\\BookShop_DBMS_Project\\AboutUs.cs",
-              "RelativeDocumentMoniker": "BookShop_DBMS_Project\\AboutUs.cs",
-              "ToolTip": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\BookShop_DBMS_Project\\BookShop_DBMS_Project\\AboutUs.cs",
-              "RelativeToolTip": "BookShop_DBMS_Project\\AboutUs.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAcwCgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:52:17.716Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "AboutUs.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\BookShop_DBMS_Project\\BookShop_DBMS_Project\\AboutUs.cs",
-              "RelativeDocumentMoniker": "BookShop_DBMS_Project\\AboutUs.cs",
-              "ToolTip": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\BookShop_DBMS_Project\\BookShop_DBMS_Project\\AboutUs.cs [Design]",
-              "RelativeToolTip": "BookShop_DBMS_Project\\AboutUs.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:49:43.407Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\BookShop_DBMS_Project\\BookShop_DBMS_Project\\Program.cs",
               "RelativeDocumentMoniker": "BookShop_DBMS_Project\\Program.cs",
@@ -133,33 +71,88 @@
               "RelativeToolTip": "BookShop_DBMS_Project\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:48:21.229Z",
+              "WhenOpened": "2024-05-10T13:42:23.705Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "POSForm.cs",
-              "DocumentMoniker": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\BookShop_DBMS_Project\\BookShop_DBMS_Project\\POS\\POSForm.cs",
-              "RelativeDocumentMoniker": "BookShop_DBMS_Project\\POS\\POSForm.cs",
-              "ToolTip": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\BookShop_DBMS_Project\\BookShop_DBMS_Project\\POS\\POSForm.cs",
-              "RelativeToolTip": "BookShop_DBMS_Project\\POS\\POSForm.cs",
-              "ViewState": "AQIAAK0AAAAAAAAAAAAxwLcAAAAmAAAA",
+              "DocumentIndex": 0,
+              "Title": "EmployeeForm.cs",
+              "DocumentMoniker": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\BookShop_DBMS_Project\\BookShop_DBMS_Project\\Employee\\EmployeeForm.cs",
+              "RelativeDocumentMoniker": "BookShop_DBMS_Project\\Employee\\EmployeeForm.cs",
+              "ToolTip": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\BookShop_DBMS_Project\\BookShop_DBMS_Project\\Employee\\EmployeeForm.cs",
+              "RelativeToolTip": "BookShop_DBMS_Project\\Employee\\EmployeeForm.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwGoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:34:03.991Z",
+              "WhenOpened": "2024-05-10T12:50:55.864Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "f3018a4f-00a6-4574-ab23-55b1ab7ff7b0",
+        "Display": 0,
+        "X": 46,
+        "Y": -8,
+        "Width": 1882,
+        "Height": 965,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "POSForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\BookShop_DBMS_Project\\BookShop_DBMS_Project\\POS\\POSForm.cs",
-              "RelativeDocumentMoniker": "BookShop_DBMS_Project\\POS\\POSForm.cs",
-              "ToolTip": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\BookShop_DBMS_Project\\BookShop_DBMS_Project\\POS\\POSForm.cs [Design]",
-              "RelativeToolTip": "BookShop_DBMS_Project\\POS\\POSForm.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "EmployeeForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\BookShop_DBMS_Project\\BookShop_DBMS_Project\\Employee\\EmployeeForm.cs",
+              "RelativeDocumentMoniker": "BookShop_DBMS_Project\\Employee\\EmployeeForm.cs",
+              "ToolTip": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\BookShop_DBMS_Project\\BookShop_DBMS_Project\\Employee\\EmployeeForm.cs [Design]",
+              "RelativeToolTip": "BookShop_DBMS_Project\\Employee\\EmployeeForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:34:01.073Z",
+              "WhenOpened": "2024-05-10T12:50:28.187Z",
               "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "6ed3b16f-c205-4253-98fd-595e1e65337c",
+        "Display": 0,
+        "X": 46,
+        "Y": 83,
+        "Width": 1882,
+        "Height": 965,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditItemForm.cs",
+              "DocumentMoniker": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\BookShop_DBMS_Project\\BookShop_DBMS_Project\\Item\\EditItemForm.cs",
+              "RelativeDocumentMoniker": "BookShop_DBMS_Project\\Item\\EditItemForm.cs",
+              "ToolTip": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\BookShop_DBMS_Project\\BookShop_DBMS_Project\\Item\\EditItemForm.cs",
+              "RelativeToolTip": "BookShop_DBMS_Project\\Item\\EditItemForm.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAADgv0gAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T12:18:38.438Z",
+              "EditorCaption": ""
             }
           ]
         }

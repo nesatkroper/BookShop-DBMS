@@ -27,8 +27,9 @@ namespace BookShop_DBMS_Project.Logform
             try
             {
                 conn.Open();
-                //string sql = "SELECT usr_id, emp_id, usr_username, usr_password, emp_name FROM User_TB, Employee_TB WHERE usr_username = @name AND usr_password = @pass;";
-                string sql = "SELECT * FROM User_TB, Employee_TB WHERE usr_username = @name AND usr_password = @pass;";
+                //string sql = "SELECT usr_id, usr_username, usr_password, emp_name FROM User_TB, Employee_TB WHERE usr_username = @name AND usr_password = @pass;";
+                //string sql = "SELECT * FROM User_TB WHERE usr_username = @name AND usr_password = @pass;";
+                string sql = "select * from employee_tb  inner join user_tb on User_TB.emp_id = Employee_TB.emp_id;";
                 SqlCommand command = new SqlCommand(sql, conn);
                 command.Parameters.AddWithValue("@name", txtUs.Text);
                 command.Parameters.AddWithValue("@pass", txtPass.Text);
@@ -37,10 +38,11 @@ namespace BookShop_DBMS_Project.Logform
                 {
                     MainForm main = new MainForm();
                     InvoiceForm invoiceForm = new InvoiceForm();
-                    invoiceForm.staffName = reader[5].ToString();
-                    main.legally = reader[11].ToString();
-                    main.staffName = reader[5].ToString();
-                    main.staffID = reader[4].ToString();
+                    invoiceForm.staffName = reader[2].ToString();
+                    main.legally = reader[7].ToString();
+                    main.staffName = reader[2].ToString();
+                    main.staffID = reader[0].ToString();
+                    main.profile = reader[12].ToString();
                     this.Hide();
                     main.ShowDialog();
                     this.Close();

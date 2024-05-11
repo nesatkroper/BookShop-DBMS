@@ -35,6 +35,8 @@ namespace BookShop_DBMS_Project
         public string staffID;
         public string legally;
 
+        public string profile;
+
         InvoiceForm InvoiceForm = new InvoiceForm();
         AboutUs AboutUs = new AboutUs();
 
@@ -55,6 +57,7 @@ namespace BookShop_DBMS_Project
             lbStaffID.Text = staffID;
             lbStaffName.Text = staffName;
             InvoiceForm.staffName = this.staffName;
+            pcbProfile.ImageLocation = this.profile;
 
             this.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, this.Width, this.Height, 20, 20));
             pnHeader.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, pnHeader.Width, pnHeader.Height, 20, 20));
